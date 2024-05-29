@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo } from "react";
+import React, { useState } from "react";
 import List from "./components/List";
 
 // TODO: 콘솔창을 확인해보고 input 타이핑할 때 마다
@@ -13,7 +13,7 @@ const App = () => {
   };
 
   const addItem = () => {
-    setItems((prevItems) => [...prevItems, input]);
+    setItems([...items, input]);
     setInput("");
   };
 
