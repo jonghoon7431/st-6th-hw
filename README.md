@@ -1,8 +1,7 @@
-# React + Vite
+# standard 6차시 과제
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+memo, useMemo, useCallback, custom hook 을 각각 간단하게 다뤄보는 연습문제 4개 (ex1~ex4)
+- ex1. memo
+- ex2. useMemo
+- ex3. useCallback
+- ex4. custom hook
